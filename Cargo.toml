@@ -1,0 +1,19 @@
+[workspace]
+members = [
+	".",
+	"cfg-match-codegen",
+]
+
+[package]
+name = "cfg-match"
+version = "0.1.0"
+authors = ["SOFe <sofe2038@gmail.com>"]
+edition = "2018"
+license = "Apache-2.0"
+repository = "https://github.com/SOF3/cfg-match.git"
+homepage = "https://github.com/SOF3/cfg-match"
+readme = "README.md"
+description = "A macro like cfg-if, but for mutually exclusive arms"
+
+[dependencies]
+cfg-match-codegen = {path = "cfg-match-codegen", version = "0.1.0"}
